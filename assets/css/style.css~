@@ -1,0 +1,188 @@
+#header{
+    position: fixed;
+    z-index: 100;
+    color: white;
+    background-color: #9999FF;
+    font-size: 1.5em;
+    width: 100%;
+    height: 57px;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 15px 40px #262626;
+}
+#create{
+    color: #FFFFFF;
+    z-index: 99;
+    font-size: 1.5em;
+    background-color: rgba(10,20,10, 0.2);
+    width:inherit;
+    min-height: 320px;
+    height:100%;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    top: 0;
+    margin-bottom: 1px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+#addSubject{
+     position: fixed;
+     right: 40;
+     top: 85px;
+     margin-right: 31%;
+     width: auto;
+}
+#subjectMenu{
+     background-color: #F2F2F2;
+     height: 90px;
+     width: 20%;
+     padding: 10px;
+     position: fixed;
+     right: 0;
+     top: 108px;
+     margin-right: 20%;
+     z-index: 102;
+     display: none;
+     box-shadow: 0px 15px 40px #262626;
+}
+
+#subject{
+     position: absolute;
+     height: 80px;
+     width: 90%;
+     overflow-y: auto;
+     -moz-border-radius:10px;
+     -webkit-border-radius:10px;
+     border-radius:10px;
+     padding: 7px;
+     background-color: #ffffff;
+     border: solid 2px #E5E5E5;
+}
+#close{
+     margin-left:120px;
+}
+
+#close1{
+     margin-top: 206px;
+}
+
+#setCourse{
+     position: fixed;
+     right: 0;
+     top: 85px;
+     margin-right: 26%;
+     width: auto;
+}
+
+#courseMenu{
+     background-color: #F2F2F2;
+     height: 230px;
+     width: 340px;
+     padding: 10px;
+     position: fixed;
+     right: 0;
+     top: 108px;
+     margin-right: 20%;
+     z-index: 102;
+     display: none;
+     box-shadow: 0px 15px 40px #262626;
+}
+
+#course{
+     position: absolute;
+     height: 180px;
+     width: 330px;
+     -moz-border-radius:10px;
+     -webkit-border-radius:10px;
+     border-radius:10px;
+     padding: 7px;
+     background-color: #ffffff;
+     border: solid 2px #E5E5E5;
+}
+#SelectSub{
+     color: black;
+     position:fixed;
+     height: 150px;
+     width: 320px;
+     overflow-y: auto;
+     background-color: #E3E3E3;
+     border: solid 2px #E5E5E5;
+}
+
+#edit{
+     margin-left: 88%;
+     margin-top: 97px;
+}
+#editMenu{
+     background-color: #F2F2F2;
+     height: 230px;
+     width: 340px;
+     padding: 10px;
+     position: fixed;
+     right: 0;
+     top: 108px;
+     margin-right: 20%;
+     z-index: 102;
+     display: none;
+     box-shadow: 0px 15px 40px #262626;
+}
+
+#overlay{
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 101;
+     width: 100%;
+     height: 100%;
+}
+
+#view{
+     color: black;
+     position:fixed;
+     min-height: 472px;
+     height: auto;
+     
+     width: -moz-available;
+     top: 157;
+     margin-left: 15%;
+     margin-right: 15%;
+     padding: 20px;
+     overflow-y: auto;
+     background-color: #C6C6FF;
+     border: solid 2px #E5E5E5;
+     -moz-border-radius:15px;
+     -webkit-border-radius:15px;
+     border-radius:15px;
+     overflow-x: auto;
+}
+
+#tabView{
+     min-width: 320px;
+     width: auto; 
+     margin-left: auto;
+     margin-right: auto;
+}
+.queStyle{
+     padding: 5px;
+     margin-right: 20px;
+     margin-left: 30px;
+     margin-top:30px;
+}
+.ansStyle{
+     padding: 5px;
+     margin-right: 20px;
+     margin-left: 30px;
+     margin-top: 15px;
+}
+.addStyle{
+     padding: 5px;
+     margin-right: 20px;
+     margin-left: 47px;
+     margin-top: 30px;
+}
+
+
+

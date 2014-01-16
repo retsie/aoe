@@ -1,0 +1,98 @@
+<http>
+     <title>AOE</title>
+     <head><link rel="stylesheet" type="text/css" href="assets/css/style.css"></head>
+     <body>
+          <div>
+               <div id = "header">
+                    Online Automated Exam
+               </div>
+               <div id = "create">
+              <div id = "overlay"></div>
+               <div id = "subjectMenu">
+                    <div id = "subject">
+                    <input type = "text" name = "subject" placeholder = "subject">
+                    <button id = "AddSub">Add</button><br>
+                    <button id = "close">Close</button>
+                    </div> 
+               </div>
+               <div id = "courseMenu">
+               
+               <div id = "course">
+                    <input type = "text" name = "course" placeholder = "Course">
+                    <div id = "SelectSub">
+                         <input type="checkbox" name = "sub1">Math<br>
+                         <input type="checkbox" name = "sub1">Grammar<br>
+                         <input type="checkbox" name = "sub1">Logical<br>
+                         <input type="checkbox" name = "sub1">Programming<br>
+                         <input type="checkbox" name = "sub1">Verbal Reasoning<br>
+                         <input type="checkbox" name = "sub1">sample<br>
+                         <input type="checkbox" name = "sub1">sample<br>
+                         <input type="checkbox" name = "sub1">sample
+                    </div>
+                    <button id = "setCor">Create</button><br><br>
+                   
+               </div>
+                <button id = "close1">Close</button>
+               </div>
+               <div id = "editMenu">
+               
+               <div id = "editSub">
+                    <select>
+                         <option>Comprog</option>
+                    </select>
+                    
+                    <button id = "editCor">Done</button><br><br>
+                   
+               </div>
+                <button id = "close2">Close</button>
+               </div>
+                    <div>
+                         <button id = "addSubject">Add New Subject</button>
+                         <button id = "setCourse">Set Courses</button>
+                          <button id = "edit">Edit Course</button>
+                         
+                    </div>
+                    
+               </div>
+          </div>
+          <div id = "view">
+               <div>
+                    <table id = "tabView" border = "2" cellspacing = "5">
+                    <tr>
+                         <td>Subject</td>
+                         <td>Course</td>
+                         <td>Question</td>
+                         <td>Action</td>
+                    </tr>
+                    <tr>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                    </tr>
+                    <tr>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                    </tr>
+                     <tr>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                    </tr>
+                     <tr>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                    </tr>
+               </div>
+          </div>
+          
+     </body>
+     <script src="assets/js/jquery.js"></script>
+     <script src="assets/js/ajax.js"></script>
+     <script src="assets/js/navigator.js"></script>
+</http>

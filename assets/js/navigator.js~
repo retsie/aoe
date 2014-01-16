@@ -1,0 +1,41 @@
+$(function(){
+
+      $("#addSubject").click(function(){
+           $("#subjectMenu").show(); 
+           $("#overlay").show();         
+     });
+     
+     $("#close").click(function(){
+          $("#subjectMenu").hide(); 
+          $("#overlay").hide();       
+     });
+     
+     $("#AddSub").click(function(){
+          alert("Successfully added");    
+     });
+     
+      $("#setCourse").click(function(){
+           $("#courseMenu").show(); 
+           $("#overlay").show();         
+     });
+     
+      $("#close1").click(function(){
+          $("#courseMenu").hide();
+          $("#overlay").hide();        
+     });
+     
+     $("#setCor").click(function(){
+          alert("Successfully added");    
+     });
+     
+     $("#edit").click(function(){
+           $("#editMenu").show(); 
+           $("#overlay").show();         
+     });
+     $("#close2").click(function(){
+          $("#editMenu").hide();
+          $("#overlay").hide();        
+     });
+});
+
+

@@ -1,0 +1,23 @@
+<?php
+class Bible {
+  
+      public function getChapter($book_id){
+          
+     }
+
+      public function getVerse($book_id, $chapter){
+          
+     }
+
+     public function getBookList(){
+     
+     }
+
+     public function getBible($book_id, $chapter, $verse){
+          
+     }
+
+     	
+   
+}
+?>

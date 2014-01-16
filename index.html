@@ -1,0 +1,196 @@
+<http>
+     <title>AOE</title>
+     <head><link rel="stylesheet" type="text/css" href="assets/css/style.css"></head>
+     <body id = "body">
+          <div>
+               <div id = "header">
+                    Online Automated Exam
+               </div>
+               <div id = "create">
+                    <div id = "overlay"></div>
+                    <div>
+                    <div id = "subjectMenu">
+                         <div id = "subject">
+                              <input type = "text" name = "subject" placeholder = "subject" id = "sub">
+                              <button id = "AddSub">Add</button><br>
+
+                              <button id = "close">Close</button>
+                         </div> 
+                    </div>
+                    <div id = "courseMenu">
+                         <div id = "course">
+                              <div id = "SelectSub">
+                                   <input type = "text" name = "course" placeholder = "Course" id = "course1" />
+                                   <input type = "text" name = "code" placeholder = "Code" id = "code">
+                              </div>
+                         </div>
+                         <button id = "done">Done</button>
+                         <button id = "close1">Close</button>
+                    </div>
+                    <div id = "choiceCourse">
+                         <div id = "course">
+                              <div id = "SelectSub">
+                                   <input type="checkbox" name = "sub1">Math<br>
+                                   <input type="checkbox" name = "sub1">Grammar<br>
+                                   <input type="checkbox" name = "sub1">Logical<br>
+                                   <input type="checkbox" name = "sub1">Programming<br>
+                                   <input type="checkbox" name = "sub1">Verbal Reasoning<br>
+                                   <input type="checkbox" name = "sub1">sample<br>
+                                   <input type="checkbox" name = "sub1">sample<br>
+                                   <input type="checkbox" name = "sub1">sample
+                              </div>
+                         </div>
+                         <button id = "done1">Done</button>
+                    </div>
+                    <div id = "editMenu">
+                         <div id = "editSub">
+                              <select id = "sel">
+                                   <option>AB Broacasting</option>
+                                   <option>BS Accountancy</option>
+                                   <option>BS Accounting Technology</option>
+                                   <option>BS Information System</option>
+                                   <option>Associate in Computer Technology</option>
+                                   <option>Computer Programming</option>
+                                   <option>Mass Communication Technology</option>
+                                   <option>Nusring Assistant</option>
+                                   <option>Office Management</option>
+                                   <option>International Cookery</option>
+                              </select>
+                              <br><br>
+                              <div id = "editCourse">
+                                   <input type = "text" name = "select_course" class = "font2" placeholder = "Rename Course"/><br>
+                                   <input type="checkbox" name = "sub1">Math<br>
+                                   <input type="checkbox" name = "sub1">Grammar<br>
+                                   <input type="checkbox" name = "sub1">Logical<br>
+                                   <input type="checkbox" name = "sub1">Programming<br>
+                                   <input type="checkbox" name = "sub1">Verbal Reasoning<br>
+                                   <input type="checkbox" name = "sub1">sample<br>
+                                   <input type="checkbox" name = "sub1">sample<br>
+                                   <input type="checkbox" name = "sub1">sample
+                              </div>
+                         </div>
+                         <button id = "editCor">Done</button>
+                         <button id = "close2">Close</button>
+                    </div>
+                    <div id = "AddQuestion">
+                         <h4 class = "Add">Add New Question<hr></h4>
+                         <div id = "Question">
+                              <p class = "font">Choose Subject:</p>    
+                              <select id = "choiceSubject" class = "font1">
+                                   <option>English Profeciency</option>
+                                   <option>Discrete Mathematics</option>
+                                   <option>Business Mathematics</option>
+                                   <option>Environmental Science</option>
+                                   <option>Political Science</option>
+                                   <option>Phillipine Literature</option>
+                                   <option>Christian Living</option>
+                              </select>
+                              <hr>
+                              <p class = "font">Type your Question:</p>
+                              <input type = "text" name = "new_question" placeholder = "New Question" autofocus class = "font1" />
+                              <p class = "font">Choices:</p>
+                              <input type = "text" name = "new_choices" class = "font1" /><input type = "checkbox"/>
+                              <input type = "text" name = "new_choices" class = "font1" /><input type = "checkbox"/>
+                              <input type = "text" name = "new_choices" class = "font1" /><input type = "checkbox"/>
+                              <input type = "text" name = "new_choices" class = "font1" /><input type = "checkbox"/>
+                              <input type = "text" name = "new_choices" class = "font1" /><input type = "checkbox"/>
+                              <button id = "AddMore" class = "font1">Add More</button>
+                         </div>
+                         <button id="addQuestBtn">Done</button>
+                         <button id = "close3">Close</button>
+                    </div>
+                    <div id = "editQuestion">
+                         <center><h4 class = "font">Edit Question<hr></h4></center>
+                         <div id = "EditQuestionnaire">
+                              <input type = "text" value = "Sinong gwapo? Ako o ako?" class = "font3"/><br><br>
+                              <input type = "text" value = "Me" class = "font3" /><input type = "checkbox" />
+                              <input type = "text" value = "Myself" class = "font3" /><input type = "checkbox" />
+                              <input type = "text" value = "I" class = "font3" /><input type = "checkbox" />
+                              <input type = "text" value = "Nobody but Me" class = "font3" /><input type = "checkbox" />
+                              <input type = "text" value = "Only Me" class = "font3" /><input type = "checkbox" />
+                         </div>
+                         <button id = "editBtnQuestion">Done</button>
+                         <button id = "closeBtnQuestion">Close</button>
+
+                    </div>
+                     <div id = "delConfirm"><div id = "del">Are you sure you want to delete this Question?<br>
+                         <button id = "yes">Yes</button>
+                         <button id = "no">No</button>
+                     </div></div>
+                    <div id = "frontMenu">
+                         <button id = "addSubject">Add New Subject</button>
+                         <button id = "setCourse">Set Courses</button>
+                         <button id = "edit">Edit Course</button>
+                         <button id = "addQuest">Add New Question</button>
+                    </div>
+                    <div id = "view">
+                         <div id = "scroll">
+                              <table id = "tabView" border = "1" cellspacing = "5">
+                                   <thead>
+                                        <tr id = "head">
+                                             <th>Subject</th>
+                                             <th>Question</th>
+                                             <th>Action</th>
+                                        </tr>
+                                   </thead>
+
+                                   <tbody>
+                                        <tr>
+                                             <td>Logic</td>
+                                             <td>Sino gwapo? Ako o ako?</td>
+                                             <td>
+                                                  <button id = "edit1">Edit</button>
+                                                  <button id = "delete">Delete</button>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td>Logic</td>
+                                             <td>Sino gwapo? Ako o ako?</td>
+                                             <td>
+                                                  <button id = "edit1">Edit</button>
+                                                  <button id = "delete">Delete</button>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td>Logic</td>
+                                             <td>Sino gwapo? Ako o ako?</td>
+                                             <td>
+                                                  <button id = "edit1">Edit</button>
+                                                  <button id = "delete">Delete</button>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td>Logic</td>
+                                             <td>Sino gwapo? Ako o ako?</td>
+                                             <td>
+                                                  <button id = "edit1">Edit</button>
+                                                  <button id = "delete">Delete</button>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td>Logic</td>
+                                             <td>Sino gwapo? Ako o ako?</td>
+                                             <td>
+                                                  <button id = "edit1">Edit</button>
+                                                  <button id = "delete">Delete</button>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td>Logic</td>
+                                             <td>Sino gwapo? Ako o ako?</td>
+                                             <td>
+                                                  <button id = "edit1">Edit</button>
+                                                  <button id = "delete">Delete</button>
+                                             </td>
+                                        </tr>
+                                   </tbody>
+                              </table>
+                         </div>
+                    </div>   
+               </div>
+          </div>
+     </body>
+     <script src="assets/js/jquery.js"></script>
+     <script src="assets/js/ajax.js"></script>
+     <script src="assets/js/navigator.js"></script>
+</http>
